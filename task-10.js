@@ -4,8 +4,8 @@
 
 const number = 20;
 
-for (let n = 1; n <= 10; n++) {
-    if (number % 1 === 0) {
+for (let n = 2; n < number; n++) {
+    if (number % n === 0) {
         console.log(number);
     }
 }
